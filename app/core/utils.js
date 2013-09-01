@@ -1,7 +1,6 @@
   App.Utils = {
     
-    bindEvents: function() 
-    {
+    bindEvents: function()  {
   	  for (item in App.Controller) {
   	    
     		App.Controller[item].initCache()
@@ -10,8 +9,7 @@
   	  }
     },
   	
-  	onLoad: function() 
-  	{
+  	onLoad: function() {
   
   	  this.bindEvents()
   
